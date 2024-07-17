@@ -1,0 +1,38 @@
+
+.subject {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* 필요에 따라 조정 */
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* 텍스트를 가운데 정렬 */
+}
+
+.map-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.button-container {
+  flex: 0 0 calc(50% - 10px); /* 한 줄에 두 개의 버튼이 있도록 설정 */
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
